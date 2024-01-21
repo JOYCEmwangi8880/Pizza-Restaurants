@@ -1,0 +1,124 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/image/res.jpg);
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+
+
+h1 {
+  color:yellow;
+  font-weight: bolder;
+  font-size:  3em;
+  text-align: center;
+  margin-top: 2%;
+  font-style: italic;
+
+}
+
+.msg {
+  color: white;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 2em;
+  margin-top: 2%;
+  
+}
+
+
+
+
+.restaurant-list h2 {
+  color:blue;
+  font-size: 34px;
+}
+
+
+
+.restaurant-list {
+  margin: 50px;
+  text-align: center;
+  
+}
+
+.restaurant-list h2 {
+  color:yellow;
+  font-size: 2em;
+}
+
+.restaurant-list ul {
+  font-size: larger;
+  color: white;
+  
+}
+.restaurant-item {
+  margin: 25px ;
+  padding: 11px;
+  display:inline-block;
+  font-size: larger;
+  font-weight: bold;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.view-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: medium;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+}
+.view-button:hover {
+  background-color: red; 
+}
+
+/* RestaurantDetails.css */
+.restaurant-details {
+  text-align: center;
+  color: yellow;
+  font-size: large;
+}
+
+.restaurant-name, .restaurant-address {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: red;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.delete-button, .update-button, .back-button, .add-rest {
+  padding: 15px 30px;
+  margin: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  font-size: large;
+  font-style: italic;
+  
+  
+  
+}
+.delete-button:hover,
+.update-button:hover,
+.back-button:hover,
+.add-rest:hover {
+  background-color: lightgray; 
+  color: red; 
+  font-weight: bold; 
+}
+
+
+
